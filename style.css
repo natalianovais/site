@@ -1,0 +1,68 @@
+/* configurações gerais */
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #456290;
+    font-family: lara, serif;
+}
+
+/* cabeçalho e rodape */
+header, footer {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #223E6B ;
+    overflow: hidden;
+}
+/* navbar */
+#navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #173564;
+}
+ #navbar ul {
+     list-style-type: none; /* tira a bolinha */
+     padding: 0;
+     margin: 0;
+ }
+ #navbar ul li {
+    float: left; /* para ficar um do lado do outro */
+ }
+
+ #navbar ul li a {
+    text-decoration: none; /* tira formatação de link */
+    padding: 14px 16px;
+    display: block;
+     color: rgb(56, 92, 139);  
+ }
+ #navbar ul li a:hover{ /* mouse acima */
+    background-color: #041837;
+    color: rgb(7, 108, 141);
+ }
+
+/* colunas laterais */
+.coluna {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+.coluna a{
+    color: #10437C;
+}
+/* coluna central */
+article{
+    width: 60%;
+    float: left;
+    background-color:   #456290;
+    padding: 20px;
+}
+.imagem{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.acotar {   /*pode usar so a teg li */
+    color: rgb(58, 57, 95);/* cor do texto*/
+}
